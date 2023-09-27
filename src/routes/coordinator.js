@@ -13,3 +13,7 @@ export const goToInfo = (navigate) => {
 export const goToContato = (navigate) => {
     navigate("/contato")
 }
+
+export const goToCarrinho = (navigate) => {
+    navigate("/carrinho")
+}

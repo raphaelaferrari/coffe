@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import { ButtonMenu, DivMenu, H1, HaederStyle, Li, Nav, Ul } from "./style"
-import { goToCardapio, goToContato, goToHome, goToInfo } from "../../routes/coordinator"
+import { goToCardapio, goToCarrinho, goToContato, goToHome, goToInfo } from "../../routes/coordinator"
 
 const Haeder = () => {
     const navigate = useNavigate()
@@ -21,7 +21,7 @@ const Haeder = () => {
                         <Li onClick={() => goToCardapio(navigate)}>Cardápio</Li>
                         <Li onClick={() => goToInfo(navigate)}>Quem somos</Li>
                         <Li onClick={() => goToContato(navigate)}>Contato</Li>
-
+                        <Li onClick={() => goToCarrinho(navigate)}>Carrinho</Li>
 
 
                     </Ul>
